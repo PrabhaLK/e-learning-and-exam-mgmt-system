@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function CourseDetail() {
     let { course_id } = useParams();
@@ -28,30 +29,30 @@ function CourseDetail() {
             {/*course videos start*/}
             <div className="card mt-4">
                 <div className="card-header">
-                    Course Videos
+                    <h5 className="text-center">Course Content</h5>
                 </div>
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item ">Introduction to Java<button className="btn btn-danger btn-sm float-end">
                         <i className="bi-youtube"></i></button></li>
                     <li className="list-group-item">JAVA Get Started<button className="btn btn-danger btn-sm float-end">
                         <i className="bi-youtube"></i></button></li>
-                    <li className="list-group-item">Java Syntax<button className="btn btn-danger btn-sm float-end">
+                    <li className="list-group-item">Java Data Types<button className="btn btn-danger btn-sm float-end">
                         <i className="bi-youtube"></i></button></li>
-                    <li className="list-group-item ">Introduction to Java<button className="btn btn-danger btn-sm float-end">
+                    <li className="list-group-item ">Java Variables<button className="btn btn-danger btn-sm float-end">
                         <i className="bi-youtube"></i></button></li>
-                    <li className="list-group-item">JAVA Get Started<button className="btn btn-danger btn-sm float-end">
+                    <li className="list-group-item">Java if Statement<button className="btn btn-danger btn-sm float-end">
                         <i className="bi-youtube"></i></button></li>
-                    <li className="list-group-item">Java Syntax<button className="btn btn-danger btn-sm float-end">
+                    <li className="list-group-item">JAVA Loops<button className="btn btn-danger btn-sm float-end">
                         <i className="bi-youtube"></i></button></li>
 
                 </ul>
             </div>
             {/*course videos end*/}
-            <h3 className="pb-1 mb-4">Latest Courses<h6><button type="button" className="float-end  btn-primary rounded-pill" href="#"> See all</button></h6></h3>
+            <h3 className="pb-1 mb-4 mt-5">Related Courses</h3>
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
-                        <Link to="/detail/1"><img src="./images/java.jpeg" className="card-img-top" alt="..." /></Link>
+                        <Link to="/detail/1"><img src="/images/java.jpeg" className="card-img-top" alt="..." /></Link>
                         <div className="card-body">
                             <h5 className="card-title"><Link to="/detail/1">Java</Link></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
@@ -60,7 +61,7 @@ function CourseDetail() {
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="./images/python.jpg" className="card-img-top" alt="..." /></a>
+                        <a href="#"><img src="/images/python.jpg" className="card-img-top" alt="..." /></a>
                         <div className="card-body">
                             <h5 className="card-title"><a href="#">Python</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
@@ -69,7 +70,7 @@ function CourseDetail() {
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="./images/html.jpg" className="card-img-top" alt="..." /></a>
+                        <a href="#"><img src="/images/html.jpg" className="card-img-top" alt="..." /></a>
                         <div className="card-body">
                             <h5 className="card-title"><a href="#">HTML</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
