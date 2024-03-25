@@ -5,8 +5,15 @@ import Login from './user/Login';
 import Register from './user/Register';
 import About from './about';
 import Footer from './Footer'
+import Dashboard from './user/Dashboard';
+import FavouriteCourses from './user/FavouriteCourses';
+import RecomendedCourses from './user/RecomendedCourses';
+import MyCourses from './user/MyCourses';
+import ProfileSetting from './user/ProfileSetting';
+import ChangePassword from './user/ChangePassword';
 
 import { Routes as Switch,Route } from 'react-router-dom';
+
 
 function Main() {
     return (
@@ -18,7 +25,12 @@ function Main() {
                 <Route path="/detail/:course_id" element={<CourseDetail />}/>
                 <Route path="/user-login" element={<Login />}/>
                 <Route path="/user-register" element={<Register />}/>
-                
+                <Route path="/user-dashboard" element={<Dashboard />}/>
+                <Route path="/favourite-courses" element={<FavouriteCourses />}/>
+                <Route path="/recomended-courses" element={<RecomendedCourses />}/>
+                <Route path="/my-courses" element={<MyCourses />}/>
+                <Route path="/profile-settings" element={<ProfileSetting />}/>
+                <Route path="/change-password" element={<ChangePassword />}/>
             </Switch>
             <Footer />
         </div>

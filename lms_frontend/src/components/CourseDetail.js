@@ -51,7 +51,7 @@ function CourseDetail() {
                             <i className="bi-youtube"></i></button>
                     </span> </li>
                     <li className="list-group-item ">Java Variables<span className="float-end">
-                        <span className="me-3">1:30 Minutes</span>
+                        <span  className="me-3">1:30 Minutes</span>
                         <button className="btn btn-danger btn-sm">
                             <i className="bi-youtube"></i></button>
                     </span> </li>
