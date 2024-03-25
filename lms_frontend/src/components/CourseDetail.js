@@ -32,18 +32,39 @@ function CourseDetail() {
                     <h5 className="text-center">Course Content</h5>
                 </div>
                 <ul className="list-group list-group-flush">
-                    <li className="list-group-item ">Introduction to Java<button className="btn btn-danger btn-sm float-end">
-                        <i className="bi-youtube"></i></button></li>
-                    <li className="list-group-item">JAVA Get Started<button className="btn btn-danger btn-sm float-end">
-                        <i className="bi-youtube"></i></button></li>
-                    <li className="list-group-item">Java Data Types<button className="btn btn-danger btn-sm float-end">
-                        <i className="bi-youtube"></i></button></li>
-                    <li className="list-group-item ">Java Variables<button className="btn btn-danger btn-sm float-end">
-                        <i className="bi-youtube"></i></button></li>
-                    <li className="list-group-item">Java if Statement<button className="btn btn-danger btn-sm float-end">
-                        <i className="bi-youtube"></i></button></li>
-                    <li className="list-group-item">JAVA Loops<button className="btn btn-danger btn-sm float-end">
-                        <i className="bi-youtube"></i></button></li>
+
+                    <li className="list-group-item ">Introduction to Java
+                        <span className="float-end">
+                            <span className="me-3">1:30 Minutes</span>
+                            <button className="btn btn-danger btn-sm">
+                                <i className="bi-youtube"></i></button>
+                        </span>
+                    </li>
+                    <li className="list-group-item">JAVA Get Started<span className="float-end">
+                        <span className="me-3">1:30 Minutes</span>
+                        <button className="btn btn-danger btn-sm">
+                            <i className="bi-youtube"></i></button>
+                    </span> </li>
+                    <li className="list-group-item">Java Data Types<span className="float-end">
+                        <span className="me-3">1:30 Minutes</span>
+                        <button className="btn btn-danger btn-sm">
+                            <i className="bi-youtube"></i></button>
+                    </span> </li>
+                    <li className="list-group-item ">Java Variables<span className="float-end">
+                        <span className="me-3">1:30 Minutes</span>
+                        <button className="btn btn-danger btn-sm">
+                            <i className="bi-youtube"></i></button>
+                    </span> </li>
+                    <li className="list-group-item">Java if Statement<span className="float-end">
+                        <span className="me-3">1:30 Minutes</span>
+                        <button className="btn btn-danger btn-sm">
+                            <i className="bi-youtube"></i></button>
+                    </span> </li>
+                    <li className="list-group-item">JAVA Loops<span className="float-end">
+                        <span className="me-3">1:30 Minutes</span>
+                        <button className="btn btn-danger btn-sm">
+                            <i className="bi-youtube"></i></button>
+                    </span> </li>
 
                 </ul>
             </div>

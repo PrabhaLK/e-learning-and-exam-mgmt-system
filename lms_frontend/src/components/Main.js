@@ -1,6 +1,8 @@
 import Header from './Header';
 import Home from './Home';
-import CourseDetail from "./CourseDetail";
+import CourseDetail from './CourseDetail';
+import Login from './user/Login';
+import Register from './user/Register';
 import About from './about';
 import Footer from './Footer'
 
@@ -14,6 +16,8 @@ function Main() {
                 <Route path="/" element={<Home />}/>
                 <Route path="/about" element={<About />}/>
                 <Route path="/detail/:course_id" element={<CourseDetail />}/>
+                <Route path="/user-login" element={<Login />}/>
+                <Route path="/user-register" element={<Register />}/>
                 
             </Switch>
             <Footer />

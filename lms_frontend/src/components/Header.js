@@ -13,6 +13,8 @@ function Header() {
                         <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                         <a className="nav-link" href="#">Courses</a>
                         <a className="nav-link" href="#">Teachers</a>
+                        <Link className="nav-link" to="/user-login">User Login</Link>
+                        <Link className="nav-link" to="/user-register">User Register</Link>
                         <Link className="nav-link" to="/about">About us</Link>
                     </div>
                 </div>
