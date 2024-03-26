@@ -11,6 +11,10 @@ function Dashboard() {
                 </aside>
                 <section className="col-md-9 ">
                   Dashboard
+                  <br></br>
+                  <h3>Welcome User, Let's Start Learning!</h3>
+
+                  <p>this section is still under developement. Better things are yet to come!</p>
                 </section>
             </div>
         </div>

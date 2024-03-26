@@ -13,6 +13,7 @@ function Sidebar() {
         <Link to="/profile-settings" className='list-group-item list-group-item-action'>Edit Profile</Link>
         <Link to ="/change-password" className='list-group-item list-group-item-action'>Change Password</Link>
         <Link to="/user-login" className='list-group-item list-group-item-action text-danger'>Logout</Link>
+        
     </div>
 </div>
     );

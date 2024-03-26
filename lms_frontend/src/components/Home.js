@@ -115,9 +115,9 @@ function Home() {
                     </div>
                 </div><div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="./images/chair.jpeg" className="card-img-top" alt="..." /></a>
+                        <a href="#"><img src="./images/SanaN.jpg" className="card-img-top" alt="..." /></a>
                         <div className="card-body">
-                            <h5 className="card-title"><a href="#">Teacher Name</a></h5>
+                            <h5 className="card-title"><a href="#">Sanath Nishantha</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
                         </div>
                     </div>

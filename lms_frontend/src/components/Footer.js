@@ -6,8 +6,7 @@ function Footer() {
                 <p className="float-end">
                     <a href="#">Back to top</a>
                 </p>
-                <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
-                <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+                <p className="text-center">LearnPro- Learning for everyone All right reserved Ⓒ 2024. </p>
             </div>
         </footer>
     );
