@@ -20,7 +20,7 @@ function CourseDetail() {
                         By the end of this course, participants will have a strong foundation in Java programming, enabling them to create
                         robust and scalable software solutions for various platforms and industries.
                     </p>
-                    <p><b>Course By:</b> <a href="#">Saman Kumara</a></p>
+                    <p><b>Course By:</b> <Link to="/teacher-detail/1">Saman Kumara</Link></p>
                     <p><b>Duration: </b>3 Hours 13 Minutes</p>
                     <p><b>Total Enrolled:</b> 2 Students</p>
                     <p><b>Rating: </b> 4/5</p>

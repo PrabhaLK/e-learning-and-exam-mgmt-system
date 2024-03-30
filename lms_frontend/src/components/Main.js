@@ -17,6 +17,7 @@ import TeacherRegister from './Teacher/TeacherRegister';
 import TeacherLogin from './Teacher/TeacherLogin';
 import TeacherDashboard from './Teacher/TeacherDashboard';
 import TeacherSidebar from './Teacher/TeacherSidebar'
+import TeacherDetail from './TeacherDetail';
 
 import { Routes as Switch,Route } from 'react-router-dom';
 
@@ -28,7 +29,7 @@ function Main() {
             <Switch>
                 <Route path="/" element={<Home />}/>
                 <Route path="/about" element={<About />}/>
-                <Route path="/detail/:course_id" element={<CourseDetail />}/>
+                <Route path="/course-detail/:course_id" element={<CourseDetail />}/>
                 <Route path="/user-login" element={<Login />}/>
                 <Route path="/user-register" element={<Register />}/>
                 <Route path="/user-dashboard" element={<Dashboard />}/>
@@ -40,6 +41,8 @@ function Main() {
                 <Route path="/teacher-login" element={<TeacherLogin />}/>
                 <Route path="/teacher-register" element={<TeacherRegister />}/>
                 <Route path="/teacher-dashboard" element={<TeacherDashboard />}/>
+                <Route path="/teacher-sidebar" element={<TeacherSidebar />}/>
+                <Route path="/teacher-detail/:teacher_id" element={<TeacherDetail />}/>
             </Switch>
             <Footer />
         </div>

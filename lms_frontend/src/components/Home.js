@@ -10,7 +10,7 @@ function Home() {
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
-                        <Link to="/detail/1"><img src="./images/java.jpeg" className="card-img-top" alt="..." /></Link>
+                        <Link to="/course-detail/1"><img src="./images/java.jpeg" className="card-img-top" alt="..." /></Link>
                         <div className="card-body">
                             <h5 className="card-title"><Link to="/detail/1">Java</Link></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
