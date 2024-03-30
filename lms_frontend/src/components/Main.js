@@ -1,3 +1,4 @@
+//components
 import Header from './Header';
 import Home from './Home';
 import CourseDetail from './CourseDetail';
@@ -5,6 +6,10 @@ import Login from './user/Login';
 import Register from './user/Register';
 import About from './about';
 import Footer from './Footer'
+
+//List Pages
+import AllCourses from './AllCourses';
+
 //Users
 import FavouriteCourses from './user/FavouriteCourses';
 import RecomendedCourses from './user/RecomendedCourses';
@@ -12,6 +17,7 @@ import MyCourses from './user/MyCourses';
 import Dashboard from './user/Dashboard';
 import ProfileSetting from './user/ProfileSetting';
 import ChangePassword from './user/ChangePassword';
+
 //Teachers
 import TeacherRegister from './Teacher/TeacherRegister';
 import TeacherLogin from './Teacher/TeacherLogin';
@@ -43,6 +49,7 @@ function Main() {
                 <Route path="/teacher-dashboard" element={<TeacherDashboard />}/>
                 <Route path="/teacher-sidebar" element={<TeacherSidebar />}/>
                 <Route path="/teacher-detail/:teacher_id" element={<TeacherDetail />}/>
+                <Route path="/all-courses" element={<AllCourses />}/>
             </Switch>
             <Footer />
         </div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import AllCourses from "./AllCourses";
 import '../css/Home.css';
 
 
@@ -6,13 +7,13 @@ function Home() {
     return (
         <div className="container mt-4">
             {/* Latest Courses  */}
-            <h3 className="pb-1 mb-4">Latest Courses<h6><button type="button" className="float-end  btn-primary rounded-pill" href="#"> See all</button></h6></h3>
+            <h3 className="pb-1 mb-4">Latest Courses<h6><Link to="/all-courses"><button type="button" className="float-end  btn-primary rounded-pill"> See all</button></Link></h6></h3>
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
                         <Link to="/course-detail/1"><img src="./images/java.jpeg" className="card-img-top" alt="..." /></Link>
                         <div className="card-body">
-                            <h5 className="card-title"><Link to="/detail/1">Java</Link></h5>
+                            <h5 className="card-title"><Link to="/course-detail/1">Java</Link></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
                         </div>
                     </div>
@@ -45,8 +46,8 @@ function Home() {
             </div>
             {/* End Latest Courses */}
 
-            {/* Latest Courses  */}
-            <h3 className="pb-1 mb-4 mt-5">Poplular Courses<h5><a className="float-end" href="#"> See all</a></h5></h3>
+            {/* popular Courses  */}
+            <h3 className="pb-1 mb-4 mt-5">Poplular Courses<h6><button type="button" className="float-end  btn-primary rounded-pill" href="#"> See all</button></h6></h3>
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
@@ -83,10 +84,10 @@ function Home() {
                     </div>
                 </div>
             </div>
-            {/* End Latest Courses */}
+            {/* End popular Courses */}
 
             {/* Poplular Teachers  */}
-            <h3 className="pb-1 mb-4 mt-5">Featured Teachers<h5><a className="float-end" href="#"> See all</a></h5></h3>
+            <h3 className="pb-1 mb-4 mt-5">Featured Teachers<h6><button type="button" className="float-end  btn-primary rounded-pill" href="#"> See all</button></h6></h3>
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
