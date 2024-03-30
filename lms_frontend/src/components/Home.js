@@ -26,7 +26,8 @@ function Home() {
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
                         </div>
                     </div>
-                </div><div className="col-md-3">
+                </div>
+                <div className="col-md-3">
                     <div className="card">
                         <a href="#"><img src="./images/html.jpg" className="card-img-top" alt="..." /></a>
                         <div className="card-body">
@@ -34,7 +35,8 @@ function Home() {
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
                         </div>
                     </div>
-                </div><div className="col-md-3">
+                </div>
+                <div className="col-md-3">
                     <div className="card">
                         <a href="#"><img src="./images/c++.jpeg" className="card-img-top" alt="..." /></a>
                         <div className="card-body">
@@ -47,7 +49,7 @@ function Home() {
             {/* End Latest Courses */}
 
             {/* popular Courses  */}
-            <h3 className="pb-1 mb-4 mt-5">Poplular Courses<h6><button type="button" className="float-end  btn-primary rounded-pill" href="#"> See all</button></h6></h3>
+            <h3 className="pb-1 mb-4 mt-5">Poplular Courses<h6><Link to="/popular-courses"><button type="button" className="float-end  btn-primary rounded-pill"> See all</button></Link></h6></h3>
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
@@ -55,6 +57,12 @@ function Home() {
                         <div className="card-body">
                             <h5 className="card-title"><a href="#">English</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
+                        </div>
+                        <div className="card-footer">
+                            <div className="title">
+                                <span>Rating : 4.5/5</span>
+                                <span className="float-end">Views : 12</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,6 +73,12 @@ function Home() {
                             <h5 className="card-title"><a href="#">Photoshop</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
                         </div>
+                        <div className="card-footer">
+                            <div className="title">
+                                <span>Rating : 4.5/5</span>
+                                <span className="float-end">Views : 12</span>
+                            </div>
+                        </div>
                     </div>
                 </div><div className="col-md-3">
                     <div className="card">
@@ -72,6 +86,12 @@ function Home() {
                         <div className="card-body">
                             <h5 className="card-title"><a href="#">Visual Studio</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
+                        </div>
+                        <div className="card-footer">
+                            <div className="title">
+                                <span>Rating : 4.5/5</span>
+                                <span className="float-end">Views : 12</span>
+                            </div>
                         </div>
                     </div>
                 </div><div className="col-md-3">
@@ -81,20 +101,31 @@ function Home() {
                             <h5 className="card-title"><a href="#">C#</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
                         </div>
+                        <div className="card-footer">
+                            <div className="title">
+                                <span>Rating : 4.5/5</span>
+                                <span className="float-end">Views : 12</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             {/* End popular Courses */}
 
             {/* Poplular Teachers  */}
-            <h3 className="pb-1 mb-4 mt-5">Featured Teachers<h6><button type="button" className="float-end  btn-primary rounded-pill" href="#"> See all</button></h6></h3>
+            <h3 className="pb-1 mb-4 mt-5">Popular Teachers<h6><Link to="/popular-teachers"><button type="button" className="float-end  btn-primary rounded-pill"> See all</button></Link></h6></h3>
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="./images/samanKumara.webp" className="card-img-top" alt="..." /></a>
+                        <Link to="/teacher-detail/1"><img src="./images/samanKumara.webp" className="card-img-top" alt="..." /></Link>
                         <div className="card-body">
-                            <h5 className="card-title"><a href="#">Saman Kumara</a></h5>
+                        <h5 className="card-title"><Link to="/teacher-detail/1">Jhon Doe</Link></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
+                        </div>
+                        <div className="card-footer">
+                            <div className="title">
+                                <span>Rating : 4.5/5</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -105,6 +136,11 @@ function Home() {
                             <h5 className="card-title"><a href="#">Janaka Sirimanna</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
                         </div>
+                        <div className="card-footer">
+                            <div className="title">
+                                <span>Rating : 4.5/5</span>
+                            </div>
+                        </div>
                     </div>
                 </div><div className="col-md-3">
                     <div className="card">
@@ -113,6 +149,11 @@ function Home() {
                             <h5 className="card-title"><a href="#">Suneth Douglas</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
                         </div>
+                        <div className="card-footer">
+                            <div className="title">
+                                <span>Rating : 4.5/5</span>
+                            </div>
+                        </div>
                     </div>
                 </div><div className="col-md-3">
                     <div className="card">
@@ -120,6 +161,11 @@ function Home() {
                         <div className="card-body">
                             <h5 className="card-title"><a href="#">Sanath Nishantha</a></h5>
                             {/* <a href="#" className="btn btn-primary">Details</a> */}
+                        </div>
+                        <div className="card-footer">
+                            <div className="title">
+                                <span>Rating : 4.5/5</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -175,9 +221,7 @@ function Home() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-
-            {/* EndStudent testimonials */}
-
+            {/* End Student testimonials */}
         </div>
     );
 }

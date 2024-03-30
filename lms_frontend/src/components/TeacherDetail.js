@@ -4,7 +4,7 @@ function TeacherDetail() {
         <div className="container mt-5">
             <div className="row ">
                 <div className="col-4 ">
-                    <img src="../images/java.jpeg" className="img-thumbnail" alt="Teacher Image" />
+                    <img src="/images/samanKumara.webp"className="img-thumbnail" alt="Teacher Image" />
                 </div>
                 <div className="col-8">
                     <h3>Jhon Doe</h3>

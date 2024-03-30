@@ -9,6 +9,8 @@ import Footer from './Footer'
 
 //List Pages
 import AllCourses from './AllCourses';
+import PopularCourses from './PopularCourses';
+import PopularTeachers from './PopularTeachers';
 
 //Users
 import FavouriteCourses from './user/FavouriteCourses';
@@ -50,6 +52,8 @@ function Main() {
                 <Route path="/teacher-sidebar" element={<TeacherSidebar />}/>
                 <Route path="/teacher-detail/:teacher_id" element={<TeacherDetail />}/>
                 <Route path="/all-courses" element={<AllCourses />}/>
+                <Route path="/popular-courses" element={<PopularCourses />}/>
+                <Route path="/popular-teachers" element={<PopularTeachers />}/>
             </Switch>
             <Footer />
         </div>
