@@ -19,18 +19,25 @@ function TeacherRegister() {
                                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className="form-label">Username</label>
-                                    <input type="text" className="form-control" />
-                                </div>
-                                <div className="mb-3">
                                     <label for="exampleInputPassword1" className="form-label">Password</label>
                                     <input type="password" className="form-control" id="exampleInputPassword1" />
+                                </div>
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className="form-label">Qualifications</label>
+                                    <textarea className='form-control' />
+                                    <div id="emailHelp" class="form-text">php, Python, JavaScript, etc.</div>
+                                </div>
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className="form-label">Mobile Number</label>
+                                    <input type="number" className="form-control" />
                                 </div>
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label">Skills</label>
                                     <textarea className='form-control' />
                                     <div id="emailHelp" class="form-text">php, Python, JavaScript, etc.</div>
                                 </div>
+
+
                                 <button type="submit" className="btn btn-primary">Register
                                 </button>
                             </form>

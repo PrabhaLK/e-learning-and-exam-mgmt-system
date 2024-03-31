@@ -9,7 +9,7 @@ class Teacher(models.Model):
     password =models.CharField(max_length=100)
     qualification=models.CharField(max_length=200)
     mobile_no = models.CharField(max_length=15)
-    address=models.TextField() 
+    Skills=models.TextField() 
 
 #course Caetgory Model
 class CourseCategory(models.Model):
