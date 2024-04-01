@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 import Sidebar from './TeacherSidebar';
-
+import {useEffect} from 'react'
 
 function ProfileSetting() {
+    useEffect(()=>{
+        document.title ="Profile Settings | LearnPro";
+    }
+    );
     return (
         <div className="container mt-4">
 

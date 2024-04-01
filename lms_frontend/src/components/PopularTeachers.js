@@ -1,7 +1,12 @@
 // import React from 'react';
 import { Link } from 'react-router-dom';
+import {useEffect} from 'react'
 
 function PopularTeachers() {
+    useEffect(()=>{
+        document.title ="Popular Teachers | LearnPro";
+    }
+    );
     return (
         <div className='container mt-3'>
             {/* Latest Courses */}

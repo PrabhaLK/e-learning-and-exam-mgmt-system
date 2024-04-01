@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import AllCourses from "./AllCourses";
 import '../css/Home.css';
+import {useEffect} from 'react'
 
 
 function Home() {
+    useEffect(()=>{
+        document.title ="Home | LearnPro";
+    }
+    );
     return (
         <div className="container mt-4">
             {/* Latest Courses  */}

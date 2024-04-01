@@ -1,7 +1,12 @@
 // import React from 'react';
 import { Link } from 'react-router-dom';
+import {useEffect} from 'react'
 
 function CourseCategories() {
+    useEffect(()=>{
+        document.title ="Course Categories | LearnPro";
+    }
+    );
     return (
         <div className='container mt-3'>
             {/* Latest Courses */}

@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
+import {useEffect} from 'react'
 function TeacherDetail() {
+    useEffect(()=>{
+        document.title ="Teacher Details| LearnPro";
+    }
+    );
     return (
         <div className="container mt-5">
             <div className="row ">

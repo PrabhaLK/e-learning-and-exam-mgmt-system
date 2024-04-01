@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import Sidebar from './Sidebar';
+import {useEffect} from 'react'
 function RecomendedCourses() {
+    useEffect(()=>{
+        document.title ="Recomended Courses | LearnPro";
+    }
+    );
     return (
         <div className="container mt-4">
             <div className='row'>
