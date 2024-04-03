@@ -1,12 +1,18 @@
 // import React from 'react';
 import { Link } from 'react-router-dom';
-import {useEffect} from 'react'
+import React, {useEffect, useState} from 'react';
+import axios from 'axios'; //perform FTP Requests for the server
 
+const baseUrl = 'http://127.0.0.1:8000/api';
 function PopularTeachers() {
+    const[teacher,setTeacher]=useState(null);
     useEffect(()=>{
+        axios.get(baseUrl+'/teacher/').then((response)=>{
+            setTeacher(response.data);
+        });
         document.title ="Popular Teachers | LearnPro";
-    }
-    );
+    },[]);
+    
     return (
         <div className='container mt-3'>
             {/* Latest Courses */}
